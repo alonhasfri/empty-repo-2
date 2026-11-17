@@ -1,0 +1,12 @@
+{
+  "name": "prompt-booster",
+  "owner": { "name": "alonhasfri" },
+  "description": "The prompt-booster plugin for Claude Code",
+  "plugins": [
+    {
+      "name": "prompt-booster",
+      "source": "./",
+      "description": "Rewrites every message you type into a clearer prompt, shows the rewrite as a small note, and answers the clearer version"
+    }
+  ]
+}
