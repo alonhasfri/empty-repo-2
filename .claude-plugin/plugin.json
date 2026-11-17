@@ -1,0 +1,8 @@
+{
+  "name": "prompt-booster",
+  "version": "1.0.0",
+  "description": "Rewrites every message you type into a clearer prompt, shows the rewrite as a small note, and answers the clearer version",
+  "license": "MIT",
+  "author": { "name": "alonhasfri" },
+  "keywords": ["prompt", "prompting", "rewrite", "clarity"]
+}
