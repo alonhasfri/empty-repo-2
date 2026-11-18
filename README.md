@@ -27,7 +27,7 @@ splits into clear requests so nothing gets skipped. It's a small test with AI ju
 At the prompt of a Claude Code terminal session:
 
 ```
-/plugin install prompt-booster --marketplace alonhasfri/empty-repo-2
+/plugin install prompt-booster --marketplace alonhasfri/prompt-booster
 ```
 
 Answer `y` to add the marketplace, then press Enter to pick the user scope.
@@ -35,11 +35,11 @@ Answer `y` to add the marketplace, then press Enter to pick the user scope.
 From a shell:
 
 ```
-claude plugin install prompt-booster --marketplace alonhasfri/empty-repo-2
+claude plugin install prompt-booster --marketplace alonhasfri/prompt-booster
 ```
 
 In the desktop app: click **+** next to the prompt box, then **Plugins**, **Add marketplace** with
-`alonhasfri/empty-repo-2`, then **Add plugin**.
+`alonhasfri/prompt-booster`, then **Add plugin**.
 
 ## Controls
 
