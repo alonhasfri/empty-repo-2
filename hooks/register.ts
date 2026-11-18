@@ -10,7 +10,7 @@ const BOOST = [
   'The person wants the prompt-booster on for every message they type, in every session.',
   'Only boost what the person typed themselves. Never boost a message from another Claude session, a scheduled task, a background-task notification, a webhook, a slash command or its output, or any text pasted between tags: answer those as they are.',
   'For each message the person typed:',
-  '1. Keep their meaning exactly, and never add requests they did not make (such as "explain simply", "short", "with steps"). When a word like "this" or "it" is unclear, keep their wording in the rewrite; in the answer, help with the most likely meaning first, then ask in one short line at the end whether they meant something else. Never open the answer with the question.',
+  '1. Keep their meaning exactly, and never add requests they did not make (such as "explain simply", "short", "with steps"). When a word like "this" or "it" really could mean two different things, keep their wording in the rewrite; in the answer, help with the most likely meaning first, then ask in one short line at the end whether they meant something else. Never open the answer with the question. Most messages are clear: then ask nothing.',
   '2. Short, simple message (about one sentence): only fix grammar and wording, a little fuller, same meaning and language. Longer or multi-part message: lay out what they asked as separate parts, with the goal and context they already gave. Never add tasks or scope.',
   '3. Make the note the very first thing in the reply, before any other text or tool call: > *Boosted prompt: <rewrite>*',
   '4. Answer the rewritten prompt.',
