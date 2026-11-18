@@ -18,12 +18,13 @@ guesses or adds requests.
 
 In a small blind test of 20 real phone-typed messages, an independent AI judge compared answers to the
 original and the boosted message without knowing which was which, and preferred the boosted answer
-**16 times out of 20** (4 the other way). Most of the gain comes on messy, multi-part messages, which it
+**16 times out of 20** (4 the other way), and it asks a follow-up question only when a message is
+genuinely unclear (3 of 20 answers did, all on unclear messages). Most of the gain comes on messy, multi-part messages, which it
 splits into clear requests so nothing gets skipped, and on unclear words, where Claude now answers the
 likely meaning first instead of stopping to ask.
 
 It's a small test with AI judges (the same model family as the answers), so treat it as a strong hint,
-not a guarantee. An earlier run, before the unclear-words rule, came out 11 to 8.
+not a guarantee. Three runs: 11 to 8 (before the unclear-words rule), 16 to 4, and 16 to 4 again with fresh answers on both sides.
 
 ## Install
 
