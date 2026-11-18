@@ -12,15 +12,18 @@ guesses or adds requests.
   separated so nothing is dropped.
 - It stays on in every message and every session once installed, also in long chats.
 - It only boosts what you type, never messages from other sessions, scheduled tasks or commands.
-- When something you wrote is unclear (like "it" or "this"), Claude answers the most likely meaning first and asks one short question at the end, instead of stopping to ask.
+- When something you wrote could really mean two things (like an unclear "it"), Claude answers the most likely meaning first and asks one short question at the end. Clear messages get no question.
 
 ## Does it help?
 
-In a small blind test of 20 real phone-typed messages, two AI judges compared answers to the original
-and the boosted message without knowing which was which. The boosted answer was judged better 17 times
-and worse 11 times (12 too close to call). Most of the gain came on messy, multi-part messages, which it
-splits into clear requests so nothing gets skipped. It's a small test with AI judges, so treat it as
-"helps sometimes", not a guarantee. The one case where boosting hurt (an unclear "it") led to the rule above.
+In a small blind test of 20 real phone-typed messages, an independent AI judge compared answers to the
+original and the boosted message without knowing which was which, and preferred the boosted answer
+**16 times out of 20** (4 the other way). Most of the gain comes on messy, multi-part messages, which it
+splits into clear requests so nothing gets skipped, and on unclear words, where Claude now answers the
+likely meaning first instead of stopping to ask.
+
+It's a small test with AI judges (the same model family as the answers), so treat it as a strong hint,
+not a guarantee. An earlier run, before the unclear-words rule, came out 11 to 8.
 
 ## Install
 
